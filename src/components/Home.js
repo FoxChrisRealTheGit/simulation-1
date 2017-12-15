@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import HomeHeader from './homeHeader';
+import {Link} from 'react-router-dom';
 import '../css/home.css';
 
 export default class Home extends Component{
@@ -14,8 +15,9 @@ export default class Home extends Component{
 
     render(){
         var bins = this.state.names.map((x, i)=>{
-            return <div key={i} className="bins">Shelf {x}</div>
-        })
+            return <Link key={i} to={`/bins/${x}`}><div className="bins">Shelf {x}</div></Link>
+        });
+
         return(
             <div>
             <HomeHeader />

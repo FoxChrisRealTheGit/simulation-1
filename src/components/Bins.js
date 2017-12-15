@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BinsHeader from './BinsHeader';
 
 export default class Bins extends Component {
     constructor() {
@@ -11,8 +12,8 @@ export default class Bins extends Component {
 
     render() {
         return (
-            <div className = "bin">
-                
+            <div>
+                <BinsHeader />
             </div>
         )
     }
