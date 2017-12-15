@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import '../css/home.css';
 import logo from '../assets/logo.png';
 
-export default function  BinsHeader(){
+export default class BinsHeader extends Component{
     
 
 
 
-
+render(){
     return (
         // 54D
         <header className="headerbins">
@@ -25,4 +25,5 @@ export default function  BinsHeader(){
             </div>
         </header>
     )
+}
 }
