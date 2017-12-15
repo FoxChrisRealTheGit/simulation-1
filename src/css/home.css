@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    background: white;
+
+}
+
+.header{
+    background: #AB2A19;
+    width: 100%;
+    height: 125px; 
+}
+.headerhome{
+    background: #AB2A19;
+    width: 100%;
+    height: 125px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandhome{
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header css */
+
+.brandimghome{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 15px;
+}
+.brandbins{
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.brandimgbins{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+
+/*Body css */
+
+.bins{
+    width: 400px;
+    height: 50px;
+    background: #D34735;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
